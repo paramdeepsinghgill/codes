@@ -1,0 +1,44 @@
+h1{
+  font-family: Calibri;
+  padding-left: 20px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /* border: 1px solid black; */
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid black; */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+video {
+  background-color: #ddd;
+  border-radius: 7px;
+  margin: 10px 0px 0px 10px;
+  width: 320px;
+  height: 240px;
+  /* object-fit: contain; */
+}
+button {
+  background-color: #f44336;
+  padding: 15px 32px;
+  width: 700px;
+  border-radius: 7px;
+  border: 2px solid #f44336;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight:bold;
+  margin: 40px 0px 0px 10px !important;
+  font-family: Calibri;
+}
+div {
+width: 340px;
+height: 240px;
+}

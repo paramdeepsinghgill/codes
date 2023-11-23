@@ -1,0 +1,36 @@
+body {
+    /* background-color: powderblue; */
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 300px;
+    grid-gap: 10px;
+}
+
+.item {
+    background: #bbb;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.item1, .item2 {
+    background: #0bd;
+}
+
+.item1 {
+    grid-row: 1/3;
+}
+
+.item2 {
+    grid-column: 2/4;
+}
