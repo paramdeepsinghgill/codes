@@ -1,0 +1,30 @@
+h3 {
+    color: gold;
+}
+img.twitter {
+    height: 30px;
+    width: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    /* gap: 10px; */
+    /* background-color: #2196F3; */
+    /* padding: 10px; */
+}
+.item {
+    background-color: black;
+    text-align: center;
+    color: white;
+    /* padding: 20px 0; */
+    font-size: 30px;
+}
+.item1 {
+    grid-column: 2;
+    grid-row: 1/4;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
