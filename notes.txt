@@ -1,3 +1,5 @@
+git clone https://github.com/paramdeepsinghgill/Codes.git
+
 git config user.name "paramdeepsinghgill"
 git config user.email "paramdeepsinghgill03@gmail.com
 git add .
