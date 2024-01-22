@@ -1,3 +1,7 @@
-python test.py
-python -m venv psgill
-psgill\Scripts\activate
+git config user.name "paramdeepsinghgill"
+git config user.email "paramdeepsinghgill03@gmail.com
+git add .
+git commit -m "Python installation completed."
+git push origin
+
+git status
