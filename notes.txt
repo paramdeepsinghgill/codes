@@ -7,3 +7,5 @@ git commit -m "Python installation completed."
 git push origin
 
 git status
+
+cd - for viewing present working directory
