@@ -1,0 +1,1 @@
+"jupyter notebook": For opening jupyter notebook Anaconda Prompt.

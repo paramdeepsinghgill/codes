@@ -7,5 +7,14 @@ git commit -m "Python installation completed."
 git push origin
 
 git status
+git log
 
-cd - for viewing present working directory
+"cd": For viewing present working directory.
+"D:": For changing the drive.
+"cd "D:\temp1\temp\Codes": For going to the working directory.
+"code .": To the open the present working directory of terminal.
+"cd ..": To go backwards.
+
+Windows key + R: For opening Run.
+"cmd": For opeing command prompt from Run.
+Ctrl + Shift + C: To copy the path of file.
