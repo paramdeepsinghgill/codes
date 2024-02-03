@@ -6,7 +6,7 @@ deactivate
 pip install -r requirements.txt
 pip freeze > requirements.txt
 python.exe -m pip install --upgrade pip
-pip install numpy --quiet
+pip install pycaret &> /dev/null [Works in UNIX, only shows errors.]
 
 packages:
 base:
