@@ -2,4 +2,16 @@ python test.py
 
 python -m venv psgill
 psgill\Scripts\activate
+deactivate
 pip install -r requirements.txt
+pip freeze > requirements.txt
+python.exe -m pip install --upgrade pip
+
+packages:
+base:
+pip
+pywin32
+
+import os
+import sys
+print(os.path.dirname(sys.executable)) :  To print the directory of the Python interpreter.

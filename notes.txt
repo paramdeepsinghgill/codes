@@ -1,3 +1,5 @@
+"[]": The information in them can be incorrect.
+
 git clone https://github.com/paramdeepsinghgill/Codes.git
 
 git config user.name "paramdeepsinghgill"
@@ -6,15 +8,28 @@ git add .
 git commit -m "Python installation completed."
 git push origin
 
+pip list
+pip --version
+
 git status
 git log
 
 "cd": For viewing present working directory.
 "D:": For changing the drive.
-"cd "D:\temp1\temp\Codes": For going to the working directory.
+"cd "D:\temp1\temp\Codes"": For going to the working directory.
 "code .": To the open the present working directory of terminal.
 "cd ..": To go backwards.
+"dir": List directory content.
+"cls": Clear screen. 
 
 Windows key + R: For opening Run.
-"cmd": For opeing command prompt from Run.
-Ctrl + Shift + C: To copy the path of file.
+"cmd": For opening command prompt from Run.
+ctrl + shift + C: To copy the path of file.
+alt + enter: For files properties.
+
+VS code:
+ctrl + O: Open a new file.
+ctrl + K + O: For opening a folder. 
+ctrl + shift + N: For opening a new window.
+ctrl + `: For opening terminal.
+ctrl + shift + P: For opening command palette.

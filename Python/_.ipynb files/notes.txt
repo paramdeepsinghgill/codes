@@ -1,1 +1,12 @@
-"jupyter notebook": For opening jupyter notebook Anaconda Prompt.
+"jupyter notebook": For opening Jupyter notebook Anaconda prompt., [For command prompt to run the Jupyter kernel].
+
+In virtual enviroment write,
+pip install ipykernel
+pip install ipython [most likely not required]
+pip install notebook
+ipython kernel install --user --name=psgill [most likely donot know the exact benefit of different kernel]
+jupyter kernelspec uninstall psgill
+
+VS code:
+open command palette
+write "Create: New Jupyter Notebook"
