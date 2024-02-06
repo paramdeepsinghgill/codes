@@ -12,7 +12,8 @@ pip list
 pip --version
 
 git status
-git log
+git log : To exit one of the command is "q", "h" for help.
+git show <[most likely commit-id or commit-hash]>
 
 "cd": For viewing present working directory.
 "D:": For changing the drive.
