@@ -15,4 +15,7 @@ pywin32
 
 import os
 import sys
-print(os.path.dirname(sys.executable)) :  To print the directory of the Python interpreter.
+print(os.path.dirname(sys.executable)) [Prints till the folder name.]
+OR
+import sys
+print(sys.executable) [Prints till the file name.] :  To print the directory of the Python interpreter.

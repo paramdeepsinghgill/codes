@@ -1,7 +1,7 @@
 "jupyter notebook": For opening Jupyter notebook Anaconda prompt., [For command prompt to run the Jupyter kernel].
 
 In virtual enviroment write,
-pip install ipykernel
+pip install ipykernel [most likely not required]
 pip install ipython [most likely not required]
 pip install notebook
 ipython kernel install --user --name=psgill [most likely donot know the exact benefit of different kernel]
