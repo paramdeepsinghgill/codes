@@ -10,3 +10,6 @@ jupyter kernelspec uninstall psgill
 VS code:
 open command palette
 write "Create: New Jupyter Notebook"
+
+Google Colab:
+"Colab Notebooks" folder: https://drive.google.com/drive/folders/194sVWNtUAWlthEkcI974sHw5uODLYXdF?usp=drive_link
