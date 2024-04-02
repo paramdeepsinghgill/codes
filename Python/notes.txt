@@ -12,6 +12,8 @@ packages:
 base:
 pip
 pywin32
+further:
+wordcloud
 
 import os
 import sys
