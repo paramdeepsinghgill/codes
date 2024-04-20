@@ -1,10 +1,10 @@
-#include <gl/glut.h>
+#include <gl/glut.h> // Header files: contains the necessary functions.
 
 void display() {
-	glClear(GL_COLOR_BUFFER_BIT);
-	glColor3f(1, 0, 0);
-	glPointSize(10);
-	glBegin(GL_LINES);
+	glClear(GL_COLOR_BUFFER_BIT); // To clear the buffer.
+	glColor3f(1, 0, 0); // Assign red color.
+	glPointSize(10); // Point size.
+	glBegin(GL_LINES); // Encloses the drawing command for lines.
 	// First square.
 	glVertex2f(10, 10);
 	glVertex2f(10, 50);
@@ -49,7 +49,7 @@ void display() {
 }
 
 void myinit() {
-	glClearColor(1, 1, 1, 0);
+	glClearColor(1, 1, 1, 0); // White colour.
 
 	glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
