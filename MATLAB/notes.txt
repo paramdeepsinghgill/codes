@@ -2,6 +2,8 @@ For starting of a MATLAB code:
 clc
 clear all
 
+To see what Toolboxes you have installed, type 'ver' in the Command Window.
+
 ";" to not show the output
 "%": For commenting.
 
