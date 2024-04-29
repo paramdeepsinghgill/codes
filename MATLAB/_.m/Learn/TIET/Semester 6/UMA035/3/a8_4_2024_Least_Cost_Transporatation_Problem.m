@@ -9,7 +9,7 @@ if sum(a) == sum (b)
     fprintf('Balanced Transportation problem')
 else
     fprintf('Unbalanced Transportation Problem')
-    if sum(a)<sum(b)
+    if sum(a)<sum(b) % demand > supply: add a row
         a(end+1) = sum(b) - sum(a)
         c(end+1,:) = zeros(1,n)
         m = m+1
@@ -19,6 +19,7 @@ else
         n = n+1
     end
 end
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 OrigC = c
 X = zeros(m,n)
 for i = 1:m
