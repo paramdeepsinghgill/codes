@@ -38,3 +38,4 @@ ctrl + K + O: For opening a folder.
 ctrl + shift + N: For opening a new window.
 ctrl + `: For opening terminal.
 ctrl + shift + P: For opening command palette.
+shift + alt + c: To copy the path of file.

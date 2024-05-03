@@ -21,3 +21,13 @@ print(os.path.dirname(sys.executable)) [Prints till the folder name.]
 OR
 import sys
 print(sys.executable) [Prints till the file name.] :  To print the directory of the Python interpreter.
+
+Python is most likely installed at "C:\Users\HP\AppData\Local\Programs\Python\Python312" in HP Pavilion Laptop 14-dv1xxx.
+
+ctrl + z or exit(): To exit Python shell in comman prompt.
+
+To handle multiple python versions:
+py --list
+py -0
+py -3.9
+py -3.9 -m pip freeze
