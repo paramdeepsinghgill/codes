@@ -8,6 +8,9 @@ pip freeze > requirements.txt
 python.exe -m pip install --upgrade pip
 pip install pycaret &> /dev/null [Works in UNIX, only shows errors.]
 
+In progress:
+Note: In Python enviroment no need to use "py -3.12" suffix.
+
 packages:
 base:
 pip
@@ -31,3 +34,5 @@ py --list
 py -0
 py -3.9
 py -3.9 -m pip freeze
+py -3.5 test.py
+py -V ("The default Python interpreter is referenced on Windows using the command py.")

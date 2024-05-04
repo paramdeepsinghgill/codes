@@ -19,13 +19,15 @@ To go to the [last] commit:
 git reset <[most likely commit-id or commit-hash]>
 git push origin main --force
 
+Command prompt:
 "cd": For viewing present working directory.
 "D:": For changing the drive.
 "cd "D:\temp1\temp\Codes"": For going to the working directory.
 "code .": To the open the present working directory of terminal.
 "cd ..": To go backwards.
 "dir": List directory content.
-"cls": Clear screen. 
+"cls": Clear screen.
+"exit()": To close.
 
 Windows key + R: For opening Run.
 "cmd": For opening command prompt from Run.
