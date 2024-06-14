@@ -1,3 +1,3 @@
 g++ --version
-g++ main.c
+g++ main.cpp
 ./a
