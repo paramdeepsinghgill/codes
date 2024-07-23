@@ -1,23 +1,7 @@
 "[]": The information in them can be incorrect.
 
-git clone https://github.com/paramdeepsinghgill/Codes.git
-
-git config user.name "paramdeepsinghgill"
-git config user.email "paramdeepsinghgill03@gmail.com
-git add .
-git commit -m "Python installation completed."
-git push origin main
-
 pip list
 pip --version
-
-git status
-git log : To exit one of the command is "q", "h" for help.
-git show <[most likely commit-id or commit-hash]>
-
-To go to the [last] commit:
-git reset <[most likely commit-id or commit-hash]>
-git push origin main --force
 
 Command prompt:
 "cd": For viewing present working directory.

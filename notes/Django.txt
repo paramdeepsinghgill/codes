@@ -1,0 +1,46 @@
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py shell
+
+Concepts:
+__init_.py: For making a module.
+wsgi.py: WSGI Web Server Gateway Interface (most likely), used for deployment purposes.
+csrf_token
+GET
+POST
+
+Start:
+1. Make an app.
+2. Make 'template' and 'static' with folder named same as the app name.
+
+Settings.py
+INSTALLED_APPS edited
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+For adding models:
+Settings.py
+INSTALLED_APPS
+
+For media:
+Settings.py
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+For python manage.py shell:
+from shop.models import Product
+Product.objects.all()
+from django.utils import timezone
+myprod = Product(product_name="mouse", category="computer", subcategory="devices", price=12, desc="this is a mouse",pub_date=timezone.now())
+myprod.save()
+myprod.product_id
+myprod.product_name
+Product.objects.get(product_name="mouse)
+a = Product.objects.get(product_name="mouse")
+a.category
+
+Deployment:
+hints:
+SECRET_KEY
+TIME_ZONE
