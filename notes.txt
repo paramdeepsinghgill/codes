@@ -41,3 +41,17 @@ ctrl + shift + N: For opening a new window.
 ctrl + `: For opening terminal.
 ctrl + shift + P: For opening command palette.
 shift + alt + c: To copy the path of file.
+shift + alt + up/down key: To copy line below/above (not checked for respectivility) it.
+ctrl + space key: To get suggestions.
+ctrl + /: Commenting.
+alt + up/down key: To move a line up or down.
+shift + alt + F: Format document.
+ctrl + ]: indent current line(s).
+ctrl + [ - outdent current line(s).
+
+VS code -> HTML:
+! + enter key: emmet HTML.
+lorem455 or lorem4 in "<p></p>": To generate some text. (donot know if <p></p> is necessary or not)
+div container or div.container: To generate <div> (emmet).
+h1.my-2: To generate <h1> (emmet).
+button:submit: to generate <button> (emmet).

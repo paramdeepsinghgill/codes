@@ -33,5 +33,9 @@ py --list
 py -0
 py -3.9
 py -3.9 -m pip freeze
+(or
+C:\Users\HP\AppData\Local\Programs\Python\Python312\python.exe -m pip install --upgrade pip)
 py -3.5 test.py
+(more examples:
+py -3.11 --version)
 py -V ("The default Python interpreter is referenced on Windows using the command py.")
