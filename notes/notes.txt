@@ -3,7 +3,7 @@
 pip list
 pip --version
 
-Command prompt:
+Command prompt / Windows PowerShell:
 "cd": For viewing present working directory.
 "D:": For changing the drive.
 "cd "D:\temp1\temp\Codes"": For going to the working directory.
@@ -12,6 +12,7 @@ Command prompt:
 "dir": List directory content.
 "cls": Clear screen.
 "exit()": To close.
+"cd../..": To go to the [root] directory.
 
 Windows key + R: For opening Run.
 "cmd": For opening command prompt from Run.

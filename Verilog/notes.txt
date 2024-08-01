@@ -1,0 +1,11 @@
+"[]": The information in them can be incorrect.
+
+Verilog is an interpreter language.
+
+iverilog.exe my_and.v
+vvp a.out
+
+"myand ma(o,a,b);": To create an [object] of the [class], as we do in OOP.
+"endmodule": The only command which does not need a semi-colon at the end.
+"#10": delay (most likely unit is 1ns)
+"$finish;": To tell where the [module] is ending.
