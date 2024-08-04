@@ -1,3 +1,5 @@
+django-admin startproject thegreenacres
+python manage.py startapp shop
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
