@@ -1,0 +1,39 @@
+GCP:
+To generate SSH keys:
+"ssh-keygen -t rsa -b 2048 -C USERNAME"
+"ssh -i PATH_TO_PRIVATE_KEY USERNAME@EXTERNAL_IP"
+To transfer files:
+"sftp://EXTERNAL_IP" 
+
+Intial setup:
+adduser param
+usermod -aG sudo param
+ufw allow OpenSSH
+ufw enable
+
+For Django:
+sudo apt install python3-pip python3-dev nginx
+sudo apt install python3.8-venv
+python3 -m venv venv
+pip install gunicorn
+
+Linux commands:
+ls
+pwd
+cd ../
+sudo su
+exit
+ls -lart <- For seeing the hidden files.
+1. sudo apt update
+2. sudo apt upgrade
+Ctrl + shift +v or right click to paste.
+sudo apt install python3.8-venv
+sudo apt remove python3.8-venv
+rm -r venv <- For removing non empty directory.
+sudo htop
+
+File editors in linux:
+vim thegreenacres/settings.py i esc :wq
+
+To deal with error:
+%USERPROFILE% <- Write on windows explorer.

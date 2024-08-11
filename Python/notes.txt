@@ -1,15 +1,28 @@
+"[]": The information in them can be incorrect.
 python test.py
 
 python -m venv psgill
 psgill\Scripts\activate
+source venv/bin/activate <- [linux]
 deactivate
 pip install -r requirements.txt
 pip freeze > requirements.txt
 python.exe -m pip install --upgrade pip
+
 (or D:\temp\venv\Scripts\python.exe -m pip install --upgrade pip)
 pip install pycaret &> /dev/null [Works in UNIX, only shows errors.]
 
 Note: In Python enviroment no need to use "py -3.12" suffix. Use it with normal Python commands.
+
+For install different python version on [Linux]:
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt upgrade
+apt list | grep python3.12
+sudo apt-get install python3.10
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.12 2
+update-alternatives --config python3
 
 packages:
 base:

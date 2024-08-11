@@ -11,10 +11,12 @@ wsgi.py: WSGI Web Server Gateway Interface (most likely), used for deployment pu
 csrf_token
 GET
 POST
+CDN
 
 Start:
 1. Make an app.
 2. Make 'template' and 'static' with folder named same as the app name.
+3. If a model is created it is needed to be registered in 'admin.py'.
 
 Settings.py
 INSTALLED_APPS edited
