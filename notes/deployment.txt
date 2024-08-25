@@ -33,7 +33,8 @@ rm -r venv <- For removing non empty directory.
 sudo htop
 
 File editors in linux:
-vim thegreenacres/settings.py i esc :wq
+vim thegreenacres/settings.py i esc :wq <- powerful
+nano
 
 To deal with error:
 %USERPROFILE% <- Write on windows explorer.
