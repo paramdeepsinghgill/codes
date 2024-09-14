@@ -1,2 +1,6 @@
 https://sci-hub.se/
 https://paperswithcode.com/sota
+Grammarly
+Google Doc right click
+Gemini
+ChatGPT
