@@ -1,3 +1,4 @@
+python manage.py runserver
 django-admin startproject thegreenacres
 python manage.py startapp shop
 python manage.py makemigrations
