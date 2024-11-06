@@ -3,6 +3,7 @@
 Verilog is an interpreter language.
 
 iverilog.exe my_and.v
+iverilog encoder.v encoder_tb.v
 vvp a.out
 
 "myand ma(o,a,b);": To create an [object] of the [class], as we do in OOP.
